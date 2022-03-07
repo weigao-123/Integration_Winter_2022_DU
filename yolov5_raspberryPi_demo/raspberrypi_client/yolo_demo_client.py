@@ -76,5 +76,4 @@ def yolo_udp_client():
 
 if __name__ == "__main__":
     server_ip = sys.argv[1]
-    print(server_ip)
     yolo_tcp_client(server_ip)
