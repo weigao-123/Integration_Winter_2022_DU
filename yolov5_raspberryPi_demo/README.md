@@ -8,7 +8,7 @@ To accelerate the inference process, a powerful GPU-based PC is used as the back
 
 ##### **Environment Setup**:
 
-- ***GPU PC*** (This is already provided by the instructors, so this part is covered, but if you would like to use your owner laptop as the backend of the inference engine as long as your laptop has a Nvidia GPU better than GTX 1050; In the meantime, a virtual python environment is also recommended, see instructions [here](#Appendix - set up virtual environment)):
+- ***GPU PC*** (This is already provided by the instructors, so this part is covered, but if you would like to use your owner laptop as the backend of the inference engine as long as your laptop has a Nvidia GPU better than GTX 1050; In the meantime, a virtual python environment is also recommended, see instructions [here](#Appendix A)):
 
   - Retrieve the **gpu_pc_server** folder to your gpu pc server.
 
@@ -48,7 +48,7 @@ To accelerate the inference process, a powerful GPU-based PC is used as the back
 
   - Retrieve the **raspberrypi_client** folder to you raspberry Pi.
 
-  - Python >= 3.7 (only python=3.7 is tested, higher version should work; In the meantime, a virtual python environment is also recommended, see instructions [here](https://raspberrypi-aa.github.io/session4/venv.html))
+  - Python >= 3.7 (only python=3.7 is tested, higher version should work; In the meantime, a virtual python environment is also recommended, see instructions [here](#Appendix B))
 
   - Once you have python environment ready, you then install the following dependencies (under the **raspberrypi_client** folder):
 
@@ -114,3 +114,6 @@ To accelerate the inference process, a powerful GPU-based PC is used as the back
    source ./yolov5_demo/bin/activate
    ```
 
+##### Appendix C
+
+More information of Yolov5 can be found [here](https://github.com/ultralytics/yolov5).
