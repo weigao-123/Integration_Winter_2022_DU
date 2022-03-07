@@ -2,9 +2,7 @@ This repository is a demo that use you only look once (yolov5) for real time obj
 
 To accelerate the inference process, a powerful GPU-based PC is used as the backend to run the yolov5 algorithm and then return the results back to raspberry Pi under a local area network (LAN). The communication structure of the PC and raspberry Pi is as follows:
 
-![image-20220306134120822](C:\Users\51746\AppData\Roaming\Typora\typora-user-images\image-20220306134120822.png)
-
-
+![communication of gpu pc server and raspberry pi](https://github.com/weigao-123/Integration_Winter_2022_DU/blob/master/yolov5_raspberryPi_demo/img/communication%20of%20gpu%20pc%20server%20and%20raspberry%20pi.png)
 
 ##### **Environment Setup**:
 
