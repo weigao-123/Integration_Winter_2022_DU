@@ -39,7 +39,7 @@ To accelerate the inference process, a powerful GPU-based PC is used as the back
     Then you will see the related IP configuration, and the IPv4 Address is what needs to be used. An example is shown as follows:
 
     ```shell
-    IPv4 Address. . . . . . . . . . . : 192.168.0.143
+    IPv4 Address. . . . . . . . . . . : 192.168.0.143 8000
     ```
 
 - ***Raspberry Pi***:
