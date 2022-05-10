@@ -59,7 +59,7 @@ To accelerate the inference process, a powerful GPU-based PC is used as the back
   - Then, to run the demo (under the **raspberrypi_client** folder) and pass the gpu pc server IP address (the IP address is just an example, you have to replace it to your own gpu server IP address):
 
     ```shell
-    python3 yolo_demo_client.py 192.168.0.143
+    python3 yolo_demo_client.py 192.168.0.143 8000
     ```
 
 ##### Appendix A
